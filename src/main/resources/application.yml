@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+subscriber:
+  url: http://localhost:8080/msg/save
+
+sender:
+  threadsNum: 5
